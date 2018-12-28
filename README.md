@@ -8,10 +8,10 @@ Used Technology:
 Java, Selenium Webdriver, TestNG, Cucumber
 
 Architecture:
-BaseUtil package: In this package I declared the basic often used variables.
-Features package: I created the .feature files for the two stories, written in BDD format.
-Runner package: The TestRuner.java is responsible for run the test.
-Steps package: Here are the .java files what are responsible for the each feature step.
+- BaseUtil package: In this package I declared the basic often used variables.
+- Features package: I created the .feature files for the two stories, written in BDD format.
+- Runner package: The TestRuner.java is responsible for run the test.
+- Steps package: Here are the .java files what are responsible for the each feature step.
 
 Report file creation:
 1. Run the test with the Runner.java
