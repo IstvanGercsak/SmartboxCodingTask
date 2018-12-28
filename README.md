@@ -7,6 +7,9 @@ IntelliJ IDEA Community Edition
 Used Technology:
 Java, Selenium Webdriver, TestNG, Cucumber
 
+Used browser for testing:
+Mozilla Firefox
+
 Architecture:
 - BaseUtil package: In this package I declared the basic often used variables.
 - Features package: I created the .feature files for the two stories, written in BDD format.
