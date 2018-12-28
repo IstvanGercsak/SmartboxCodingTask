@@ -19,5 +19,5 @@ Report file creation:
    It shows only the success or failed Scenarios.
 
 Additional information:
-In some point the specification and the actual working of the website did't meet, so I used Ignore annotations for those Tests, 
+In some point the specification and the actual working of the website didn't meet, so I used Ignore annotations for those Tests, 
 because these tests would be false positive.
