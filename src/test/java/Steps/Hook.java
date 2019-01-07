@@ -3,7 +3,9 @@ package Steps;
 import Base.BaseUtil;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -23,11 +25,13 @@ public class Hook extends BaseUtil {
 
         /* Implementation of the Firefox webdriver */
 
-        FirefoxDriverManager.getInstance().setup();
+        //FirefoxDriverManager.getInstance().setup();
 
         //System.setProperty("webdriver.gecko.driver", "src/geckodriver-v0.23.0-win64/geckodriver.exe");
 
-        base.driver = new FirefoxDriver();
+        ChromeDriverManager.getInstance().setup();
+        //base.driver = new FirefoxDriver();
+        base.driver = new ChromeDriver();
         base.driver.manage().window().maximize();
 
         /* Implementation of the global wait */
