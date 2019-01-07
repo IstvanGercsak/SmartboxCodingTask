@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Run">
+
+    <test name="Package test">
+        <packages>
+
+            <package name="Runner"/>
+
+        </packages>
+    </test>
+</suite>
