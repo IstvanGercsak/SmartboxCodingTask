@@ -24,3 +24,5 @@ Report file creation:
 Additional information:
 In some point the specification and the actual working of the website didn't meet, so I used Ignore annotations for those Tests, 
 because these tests would be false positive.
+
+...
